@@ -1,3 +1,27 @@
+## Training DNNs to predict performance drop
+
+### How to use
+
+```python
+git clone https://github.com/dataiku-research/dnn_performance_drop_prediction.git
+
+cd dnn_performance_drop_prediction
+
+virtualenv --python==python3 env_dnn_perf_drop
+
+source env_dnn_perf_drop/bin activate
+
+pip install -r requirements.txt
+
+python3 -m ipykernel install --user --name=ker_dnn_perf_drop
+
+ipython notebook
+```
+
+Open `dnn_performance_drop_prediction.ipynb` and set the kernel `ker_dnn_perf_drop`.
+
+### Notebook content
+
 **Purpose** Train a DNN-based meta-model to predict a primary model accuracy drop (on various shifted datasets) and beat the baseline.
 
 **Primary Task** RandomForestClassifier to predict low/high sales of video games records. Accuracy on clean validation set 0.798.
