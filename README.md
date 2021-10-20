@@ -45,6 +45,6 @@ BBSDs KS and BBSDh X2 statistics, KS statistics on individual preprocessed featu
 
 **DNN Models**
 
-The implemented DNNs in keras use one of the 3 types of encoders 'mlp', 'lstm' or 'odt' (oblivious decision tree). 
+The implemented DNNs in keras use one of the 2 types of encoders MLP or LSTM. 
 
 
