@@ -18,7 +18,7 @@ python3 -m ipykernel install --user --name=ker_dnn_perf_drop
 ipython notebook
 ```
 
-Open `dnn_performance_drop_prediction.ipynb` and set the kernel `ker_dnn_perf_drop`.
+Open [dnn_performance_drop_prediction.ipynb](dnn_performance_drop_prediction.ipynb) and set the kernel `ker_dnn_perf_drop`.
 
 ### Notebook content
 
