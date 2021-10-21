@@ -22,6 +22,8 @@ Open [dnn_performance_drop_prediction.ipynb](dnn_performance_drop_prediction.ipy
 
 ### Notebook content
 
+**TL;DR** Deep models bring slightly better performances than a simple model based on drift-measures in the task of predicting a ML model performance drop on datasets under shift. Still the error is high, even on shifts already observed in the training set. Can we do better?
+
 **Purpose** Train a DNN-based meta-model to predict a primary model accuracy drop (on various shifted datasets) and beat the baseline.
 
 **Primary Task** RandomForestClassifier to predict low/high sales of video games records. Accuracy on clean validation set 0.798.
