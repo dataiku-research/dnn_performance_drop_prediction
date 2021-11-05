@@ -2,6 +2,8 @@
 
 ### How to use
 
+Make sure you use git LFS in order to download the data. 
+
 ```python
 git clone https://github.com/dataiku-research/dnn_performance_drop_prediction.git
 
